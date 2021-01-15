@@ -785,7 +785,7 @@ requests:
 
     matchers-condition: and
     matchers:
-      - type: status
-        status:
-          - 200
+      - type: dsl
+        dsl:
+          - "len(body)>=140 && status_code==200" # Body length less than 1024 and 200 status code
 
