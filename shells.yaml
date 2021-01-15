@@ -3,7 +3,7 @@ id: possibility-of-webshell
 info:
   name: Possibility of Webshell
   author: marcositu
-  severity: low
+  severity: info
 
 requests:
   - method: GET
